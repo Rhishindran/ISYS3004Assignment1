@@ -1,0 +1,145 @@
+mystyles.css
+
+*{
+  font: normal 10px Arial, sans-serif; 
+}
+
+body {
+  font: normal 10px Arial, sans-serif;
+  background-color: white;
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+.home{
+  text-align: center;
+}
+
+#navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navBar li {
+  float: left;
+}
+
+#navBar button{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: normal 10px Arial, sans-serif;
+  background-color: #333;
+  border-color: #333;
+}
+
+#navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: normal 10px Arial, sans-serif;
+}
+
+#navBar li a:hover {
+  background-color: #111;
+}
+
+
+.admin_outer{
+width: 980px;
+border: 1px solid;
+}
+
+.admin_left{
+width: 49%;
+float: left;
+display:inline;
+text-align: left;
+}
+
+.admin_righ{
+width: 49%;
+float: right;
+display:inline;
+text-align: right;
+}
+
+.Footer_outer{
+width: 980px;
+border: 1px solid;
+}
+
+.Footer_inner_left{
+width: 49%;
+float: left;
+display:inline;
+text-align: left;
+font-size: xx-small;
+font-weight: bold;
+line-height: 1;
+
+}
+
+.Footer_inner_right{
+width: 49%;
+float: right;
+display:inline;
+text-align: right;
+font-size: xx-small;
+font-weight: bold;
+line-height: 1;
+}
+
+
+/*
+home
+admin
+introduction
+assesments
+privacyCopyright
+academicIntegrity
+additionalInformation
+programCalendar
+*/
+
+/*
+#page1{
+    font: normal 10px Arial, sans-serif;
+}
+
+#page2{
+    font: normal 10px Arial, sans-serif;
+}
+
+#page3{
+    font: normal 10px Arial, sans-serif;
+}
+*/
+
+/* Clear floats (clearfix hack) 
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+
+/* Prevent double borders 
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+*/
+
+/* Add a background color on hover 
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+*/
