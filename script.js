@@ -23,7 +23,7 @@ function clearPage()
   document.getElementsByClassName('home')[0].style.display = "none";
   document.getElementsByClassName('admin')[0].style.display = "none";
   document.getElementsByClassName('introduction')[0].style.display = "none";
-  document.getElementsByClassName('assesments')[0].style.display = "none";
+  document.getElementByClassName('assesments')[0].style.visibility ='hidden';
   document.getElementsByClassName('privacyCopyright')[0].style.display = "none";
   document.getElementsByClassName('academicIntegrity')[0].style.display = "none";
   document.getElementsByClassName('additionalInformation')[0].style.display = "none";
