@@ -18,6 +18,9 @@ Know Issues
 		
 		4. used <hr> tags to create line elements I the HTML this was taken from W3 schools. Style elements should normally be used in CSS, but <hr> tags were not specified in style guide to be in CSS and unsure how to create multiple lines in to HTML via CSS.
 
+		5. <hr> lines footer come out clean on chrome and Microsoft edge but are not aligned properly in Firefox.
+
+		6. Footer erro/warning  
 
 References. 
 
