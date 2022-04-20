@@ -30,12 +30,6 @@ function clearPage()
   
 }
 
-function showHomePage() 
-{
-  clearPage();
-  document.getElementsByClassName('home')[0].style.display = "initial";
-
-}
 
 function selectPage(pagename)
 {

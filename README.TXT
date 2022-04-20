@@ -20,25 +20,30 @@ Know Issues
 
 		5. <hr> lines footer come out clean on chrome and Microsoft edge but are not aligned properly in Firefox.
 
-		6. Footer erro/warning  
+		6. 6. error/warning Exists for the Footer on some browser, mostly chrome from what I gather it is an error associated with google tag manger. And the error/warning does not appear all the time 
 
 References. 
 
-		1. <hr> tags taken from https://www.w3schools.com/tags/tag_hr.asp
+		1. (line:78 index.html)<hr> tags taken from https://www.w3schools.com/tags/tag_hr.asp
 		
-		2. Navigation bar code was adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp
+		2. (line:18 index.html)Navigation bar code was adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp
 			Base code was taken from w3 schools, edited it to contain lot more <li> options and added in a button to the list then used CSS to cauterize the change them button to the right of the navigation bar. 
 		
-		3. CSS taken from https://stackoverflow.com/questions/3239167/create-two-column-footer-using-div
-			In footer section I wanted to create two sections of text divided in to tow column, used some code form this stack overflow article , but did some changes to make it work for my website 
+		3. (line:541 index.html)CSS taken from https://stackoverflow.com/questions/3239167/create-two-column-footer-using-div
+			In footer section I wanted to create two sections of text divided in to tow column, used some code form this stack overflow article , but did some changes to make it fit for my website purpose 
 		
-		4. idea to change display properties of elements came from https://www.w3schools.com/cssref/pr_class_display.asp
+		4. (Line:22 script.js)idea to change display properties of elements came from https://www.w3schools.com/cssref/pr_class_display.asp
 		
-		5. On load function code taken and adapted from https://www.w3schools.com/cssref/pr_class_display.asp
+		5. (Line:15 script.js)On load function code taken and adapted from https://www.w3schools.com/cssref/pr_class_display.asp
 			needed to run a script on load to display homepage and clear other elements.
 
-		6. Adapted code of document.getElementsByClassName()[0]. From https://stackoverflow.com/questions/28387375/javascript-cant-get-getelementsbyclassname-working
+		6. (Line:22 script.js)Adapted code of document.getElementsByClassName()[0]. From https://stackoverflow.com/questions/28387375/javascript-cant-get-getelementsbyclassname-working
 			Had issues running the document.getElementByClassName() function kept giving error of function could not be found.  Looking on stack overflow found this workaround suing the document.getElementsByClassName()[0]. Which returns a array class hence the use of [0] to get the first item in the array.
+
+		7. (line:11 index.html)<link rel="shortcut icon" href="#"> used to fix unknown error of  failed to load favicon.ico error taken from https://stackoverflow.com/questions/31075893/im-getting-favicon-ico-error
+			honestly not sure what this error is, form what I gather it has something to do with git hub generates its pages?, I found this fix via stack overflow.
+
+
 
 Reflection. 
 From this website I can gather I need to spend more time learning CSS as it was the biggest let down and lead cause to may of my issues creating this web site. I tried many different experiments to get themes and page formatting working on different <div> elements to work.  
