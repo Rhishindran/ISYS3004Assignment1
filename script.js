@@ -1,3 +1,8 @@
+/*
+Student Name: Rhishindran Ravichandar
+Student ID :18360488
+*/
+
 let Home = document.getElementById('b1');
 let Admin = document.getElementById('b2');
 let Introduction = document.getElementById('b3');
