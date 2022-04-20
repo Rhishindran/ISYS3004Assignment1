@@ -17,7 +17,6 @@ let theme = "light";
 })();
 
 
-/*document.getElementById('page3').style.display = "none";*/
 function clearPage()
 {
   document.getElementsByClassName('home')[0].style.display = "none";
@@ -70,16 +69,5 @@ AcademicIntegrity.addEventListener('click',(event) => selectPage("academicIntegr
 AdditionalInformation.addEventListener('click',(event) => selectPage("additionalInformation"));
 ProgramCalendar.addEventListener('click',(event) => selectPage("programCalendar"));
 
-
-/*
-Home.addEventListener('click',(event) => showHomePage());
-Admin.addEventListener('click',(event) => showAdminPage());
-Introduction.addEventListener('click',(event) => showIntroductionPage());
-Assesments.addEventListener('click',(event) => showAssesmentsPage());
-PrivacyCopyright.addEventListener('click',(event) => showPrivacyCopyrightPage());
-AcademicIntegrity.addEventListener('click',(event) => showacAdemicIntegrityPage());
-AdditionalInformation.addEventListener('click',(event) => showAdditionalInformationPage());
-ProgramCalendar.addEventListener('click',(event) => showProgramCalendarPage());
-*/
 
 CC.addEventListener('click',(event) => ChangeColor());
