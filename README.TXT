@@ -1,6 +1,9 @@
 Student Name: Rhishindran Ravichandar
 Student ID :18360488
 
+Final live website : https://rhishindran.github.io/ISYS3004Assignment1/
+repository link : https://github.com/Rhishindran/ISYS3004Assignment1
+
 This is a SPA website of the ISYS3004 Unit Outline. 
 There are no Errors on the SPA. 
 
@@ -21,7 +24,7 @@ Know Issues
 
 		5. <hr> lines footer come out clean on chrome and Microsoft edge but are not aligned properly in Firefox.
 
-		6. 6. error/warning Exists for the Footer on some browser, mostly chrome from what I gather it is an error associated with google tag manger. And the error/warning does not appear all the time 
+		6. 6. error/warning of "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort' ", only on chrome from what I gather it is an error associated with google tag manger. And the error/warning  appear intermediately between page loads
 
 References. 
 
