@@ -17,6 +17,12 @@ body hr {
 	margin-left:0;
 }
 
+footer hr {
+  width:100%;
+	text-align:left;
+	margin-left:0;
+}
+
 #heading {
 	text-align: center;
 	width:100%;
